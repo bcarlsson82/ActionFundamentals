@@ -1,4 +1,4 @@
-name: CI/CD
+name: GitHub Actions Demo
 
 on:
   push:
