@@ -11,8 +11,7 @@ on:
   schedule:
     - cron: '15 6 * * SUN'
   workflow_dispatch:
-
-jobs: # This 'jobs' keyword should be at the same level as 'on'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
